@@ -1,4 +1,5 @@
-import { makeObject, makePerson, makePerson2, printPerson } from "./utils/default";
+import { makePerson, makePerson2, printPerson } from "./utils/default";
+import { makeObject } from "./utils/Indexable-Key";
 
 console.log("Make Person (Name) -> ", makePerson('Jack'));
 console.log("Make Person (Name)(Age) -> ", makePerson('Jane', 33));
