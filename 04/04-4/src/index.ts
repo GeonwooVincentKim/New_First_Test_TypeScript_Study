@@ -17,4 +17,8 @@ console.log("\n-----------------------\n");
 console.log("Add -> ", add(1));
 console.log("\n-----------------------\n");
 
+console.log("Add (Closure) Result -> ", closureResult)
+console.log("Add (Closure) Add Function Parameter -> ", add(1)(2))
+
+console.log("\nClosure fn ->", fn);
 console.log("Closure Result -> ", closureResult);
