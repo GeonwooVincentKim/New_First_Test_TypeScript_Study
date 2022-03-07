@@ -22,3 +22,8 @@ console.log("Add (Closure) Add Function Parameter -> ", add(1)(2))
 
 console.log("\nClosure fn ->", fn);
 console.log("Closure Result -> ", closureResult);
+
+const multiply = a => b => c => a * b * c
+console.log("Multiply (Closure) (1) -> ", multiply(1));
+console.log("Multiply (Closure) (1)(2) -> ", multiply(1)(2));
+console.log("Multiply (Closure) (1)(2)(3) -> ", multiply(1)(2)(3));
