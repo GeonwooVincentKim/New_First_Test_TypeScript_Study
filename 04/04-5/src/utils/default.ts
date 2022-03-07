@@ -10,3 +10,5 @@ export const printPerson = ({name, age}: Person): void =>
     console.log(`\nPrint Person -> Name: ${name}, age: ${age}`);
 
 printPerson({name: 'Jack', age: 10});
+
+export const makeObject = (key, value) => ({[key]: value})
