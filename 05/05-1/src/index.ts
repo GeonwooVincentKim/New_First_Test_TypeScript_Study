@@ -19,3 +19,6 @@ console.log("------------------------------------");
 
 console.log("Join -> ", join(['h', 'e', 'l', 'l', 'o']), join(['h', 'e', 'l', 'l', 'o'], '_'))
 console.log("------------------------------------\n");
+
+console.log("Array Index Operator -> ", numbers);
+console.log("------------------------------------\n");
