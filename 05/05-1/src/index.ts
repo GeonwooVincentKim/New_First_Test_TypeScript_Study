@@ -1,5 +1,6 @@
 import { numbers, strings } from "./utils/array";
 import { IPerson, numArray, personArray, strArray } from "./utils/array-type";
+import { arrayLength, isEmpty } from "./utils/arrayLength";
 import { a, o } from "./utils/isArray";
 import { join } from "./utils/join";
 import { split } from "./utils/split";
@@ -21,4 +22,14 @@ console.log("Join -> ", join(['h', 'e', 'l', 'l', 'o']), join(['h', 'e', 'l', 'l
 console.log("------------------------------------\n");
 
 console.log("Array Index Operator -> ", numbers);
-console.log("------------------------------------\n");
+console.log("------------------------------------");
+
+console.log(
+    "<Array Length Test> -> ",
+    arrayLength(numArray),
+    arrayLength(strArray),
+    arrayLength(personArray),
+    isEmpty([]),
+    isEmpty([1]),
+    "\n------------------------------------\n"
+);
