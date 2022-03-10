@@ -1,6 +1,7 @@
 import { numbers, strings } from "./utils/array";
 import { IPerson, numArray, personArray, strArray } from "./utils/array-type";
 import { arrayLength, isEmpty } from "./utils/arrayLength";
+import { identify } from "./utils/generic-type-interface";
 import { a, o } from "./utils/isArray";
 import { join } from "./utils/join";
 import { split } from "./utils/split";
@@ -31,5 +32,12 @@ console.log(
     arrayLength(personArray),
     isEmpty([]),
     isEmpty([1]),
+    "\n------------------------------------"
+);
+
+console.log(
+    "<Identify Generic Type> -> ",
+    identify<boolean>(true),
+    identify(true),
     "\n------------------------------------\n"
 );
