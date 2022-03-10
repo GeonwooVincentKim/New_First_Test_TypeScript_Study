@@ -27,7 +27,7 @@ console.log("Array Index Operator -> ", numbers);
 console.log("------------------------------------");
 
 console.log(
-    "<Array Length Test> -> ",
+    "Array Length Test -> ",
     arrayLength(numArray),
     arrayLength(strArray),
     arrayLength(personArray),
@@ -36,10 +36,11 @@ console.log(
     "\n------------------------------------"
 );
 
-console.log("<Identify Generic Type> -> ", identify<boolean>(true), identify(true));
+console.log("Identify Generic Type -> ", identify<boolean>(true), identify(true));
 console.log("------------------------------------");
 
 console.log("Merged Array -> ", mergedArray);
 console.log("------------------------------------");
 
+console.log("Range -> ", numbers)
 console.log("------------------------------------\n");
