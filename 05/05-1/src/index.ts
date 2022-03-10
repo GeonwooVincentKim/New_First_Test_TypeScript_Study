@@ -5,6 +5,7 @@ import { identify } from "./utils/generic-type-interface";
 import { a, o } from "./utils/isArray";
 import { join } from "./utils/join";
 import { split } from "./utils/split";
+import { mergedArray } from "./utils/spread-operator";
 
 console.log("\n------------------------------------");
 console.log("Numbers & Strings -> ", numbers, strings);
@@ -35,9 +36,10 @@ console.log(
     "\n------------------------------------"
 );
 
-console.log(
-    "<Identify Generic Type> -> ",
-    identify<boolean>(true),
-    identify(true),
-    "\n------------------------------------\n"
-);
+console.log("<Identify Generic Type> -> ", identify<boolean>(true), identify(true));
+console.log("------------------------------------");
+
+console.log("Merged Array -> ", mergedArray);
+console.log("------------------------------------");
+
+console.log("------------------------------------\n");
