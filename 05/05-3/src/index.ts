@@ -4,6 +4,7 @@ import { belowHalf, overHalf } from "./utils/filterIndex";
 import { evens, odds } from "./utils/filterOddEven";
 import { squareNames } from "./utils/mapNumberToString";
 import { mapSquares } from "./utils/mapSquare";
+import { reduceSum } from "./utils/reduceSum";
 
 console.log("\n------------------------------");
 console.log("Chain Result -> ", chainResult);
@@ -22,5 +23,8 @@ console.log("Map Squares -> ", mapSquares);
 
 console.log("------------------------------");
 console.log("Square Names (Map Names) -> ", squareNames);
+
+console.log("------------------------------");
+console.log("Reduce Sum -> ", reduceSum);
 
 console.log("------------------------------\n");
